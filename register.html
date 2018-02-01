@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="background.png">
+	<!-- some kind of menu - copy section on all the pages -->
+	<div align="center"><h1> My favorite movies <sub>by genre</sub></h1>
+		<!-- added "go home" link -->
+		<a href="index.html"><h8><b>#Go Home</b></h8></a>
+		<hr>
+		<a href="comedy.html"><h4 >#Comedy</h8></a>
+			<a href="fantasy.html"><h8>#Fantasy</h8></a>
+			<a href="action.html"><h8>#Action  </h8></a>
+			<a href="SF.html"><h8>#SF</h8></a>
+	</div> 
+	<!-- some kind of menu - copy section on all the pages --> 
+		<hr>
+		<h4 align="center">Register </h4>
+	
+			<hr>
+	<form align="center" method="GET" >
+		<b>First name:</b> <input type="text" name="prenume" placeholder="John"><br>
+		<b>Last name:</b><input type="text" name="nume" placeholder="Smith"><br>
+		<b>E-mail address: </b><input type="email" name="email" placeholder="email@example" required><br>
+		<b>Password: </b><input type="password" name="pass" minlength="6" placeholder="Password" required=""><br>
+		<b>Birthday:</b><input type="date" name="birth"><br>
+		<b>Gender:</b><br>
+		<input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="female">Female
+		<input type="radio" name="gender" value="other">Did you just assume my gender? :)))<br>
+		<b>Favourite movie genre: </b><br>
+		<input type="checkbox" name="mgenre" value="dog">Comedy
+		<input type="checkbox" name="mgenre" value="cat">Action
+		<input type="checkbox" name="mgenre" value="bird">SF
+		<input type="checkbox" name="mgenre" value="bird">Fantasy<br>
+		<b>Wich one do you think it's the best movie ever? </b><br>
+		<select name="cars">
+			<option value="shwashank" >The Shawshank Redemption</option>
+			<option value="godfather"  >The Godfather </option>
+			<option value="darkknight">The Dark Knight</option>
+		</select><br>
+		<input type="submit" value="Register" >
+		<input type="reset" name="">
+	</form>
+
+		<!-- some kind of footer- repeat on all pages	 -->
+			<p> Copyrighted &reg to DragosSirbu 2018 </p>
+		</body>
+		</html>
